@@ -1,0 +1,11 @@
+.attributeRow {
+    margin: 1em;
+}
+
+.topDetailUi .v-toolbar{
+    display: grid;
+    grid-template-columns: 1fr 0fr;
+    color: #929292;
+    background-color: #f7f7f7;
+    padding: 0.6em;
+}

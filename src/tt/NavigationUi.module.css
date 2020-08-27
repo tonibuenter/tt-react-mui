@@ -1,0 +1,111 @@
+.ttNavigationUi {
+    margin: 0;
+    padding: 0;
+    xxborder: 2px solid lightslategray;
+    xxborder-radius: 0.6em;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 3em 1fr 2em;
+    xxbox-shadow: #00b0ff;
+    color: #929292
+}
+
+.ttToolbar {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 0fr;
+
+    color: #929292;
+    background-color: #f7f7f7;
+    padding: 0.6em;
+}
+
+.ttToolbar .ttIcons {
+    white-space: nowrap;
+}
+
+.ttCenter {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    position: relative;
+    xborder: 1px solid gray;
+    height: 100%;
+    padding: 0.4em;
+}
+
+.ttPaper {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.ttLeft, .ttRight, .ttBoth {
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 1em;
+    border: 1px solid lightgrey;
+    padding: 0.4em;
+    xxxtransition: all 1s;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+
+.ttLeft {
+    left: 0;
+    right: 50%;
+    xxxtransition: all 1s;
+}
+
+.ttRight {
+    left: 50%;
+    right: 0;
+    xxxtransition: all 1s;
+}
+
+.ttLeftFull .ttRight {
+    display: none;
+    xxxtransition: all 1s;
+}
+
+
+.ttLeftFull .ttLeft {
+    right: 0;
+    xxxtransition: all 1s;
+}
+
+
+.ttTwoThrid .ttRight {
+    left: 66.66%;
+    xxxtransition: all 1s;
+}
+
+
+.ttTwoThrid .ttLeft {
+    right: 33.33%;
+    xxxtransition: all 1s;
+}
+
+
+.ttOneThrid .ttRight {
+    left: 33.33%;
+    xxxtransition: all 1s;
+}
+
+
+.ttOneThrid .ttLeft {
+    right: 66.66%;
+    xxxtransition: all 1s;
+}
+
+
+.ttFooter {
+
+}

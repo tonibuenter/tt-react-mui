@@ -1,0 +1,38 @@
+.ttIcon {
+    font-size: 2em;
+    color: #0F4DBC;
+    cursor: pointer;
+}
+
+.ttLink {
+    color: #0F4DBC !important;
+    cursor: pointer;
+}
+
+.ttButton {
+    color: #0F4DBC !important;
+}
+
+
+.ttButtonPanel {
+    padding: 0.4em;
+}
+
+.ttTitle {
+    padding: 0.2em;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+.horizontalCenter {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.pointer {
+    cursor: pointer;
+}
